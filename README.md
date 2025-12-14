@@ -26,7 +26,7 @@ A Spring Boot application that consumes user data from an external API and store
 | **GET** | `/api/company/{name}` | Get the first user by company name from external API | Full user JSON object |
 | **GET** | `/api/restict` | Get restricted user data (ID, name, email, phone, company name) | `[{"id":1,"name":"Leanne Graham","email":"Sincere@april.biz","phone":"1-770-736-8031 x56442","companyName":"Romaguera-Crona"}, ...]` |
 | **GET** | `/api/sync-users` | Manually sync users from external API into the database | `"Synced successfully"` |
-| **GET** | `/api/users-db` *(optional)* | Get all users stored in the local database | List of User JSON objects |
+| **GET** | `/user` *(optional)* | Get all users stored in the local database | List of User JSON objects |
 
 ---
 
